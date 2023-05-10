@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GuessTheNumber</string>
+    <string name="tentativa">%d de 10</string>
+    <string name="titulo">Tente adivinhar o número de 1 a 100</string>
+    <string name="botao">Tentar</string>
+    <string name="erro">[ERRO] NÚMERO INSERIDO NÃO VALIDO</string>
+    <string name="maior">O VALOR É MENOR QUE %d</string>
+    <string name="menor">O VALOR É MAIOR QUE %d</string>
+    <string name="certa">CERTA RESPOSTA O VALOR É %d</string>
+</resources>

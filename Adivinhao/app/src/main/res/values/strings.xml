@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Adivinhação</string>
+    <string name="tentativas">%d de 10 tentativas</string>
+    <string name="score">Score: %d</string>
+</resources>

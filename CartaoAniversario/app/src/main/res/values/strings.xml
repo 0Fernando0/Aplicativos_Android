@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cartao Aniversario</string>
+    <string name="aniversariante">Feliz Aniversario %s</string>
+    <string name="emissor">- de %s</string>
+</resources>

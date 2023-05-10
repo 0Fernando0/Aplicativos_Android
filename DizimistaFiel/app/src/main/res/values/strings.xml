@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dizimista Fiel</string>
+    <string name="barra">digite o valor</string>
+    <string name="saida">Dizimo: %s</string>
+</resources>
