@@ -7,33 +7,27 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = Purple200,
-    primaryVariant = Purple700,
-    secondary = Teal200
+    primary = TemaEscuro.primary,
+    secondary = TemaEscuro.secondary,
+    onSurface = TemaEscuro.onSurface,
+    background = TemaEscuro.background,
+    onPrimary = TemaEscuro.onPrimary,
+    surface = TemaEscuro.surface
 )
 
 private val LightColorPalette = lightColors(
-    primary = Purple500,
-    primaryVariant = Purple700,
-    secondary = Teal200
-
-    /* Other default colors to override
-    background = Color.White,
-    surface = Color.White,
-    onPrimary = Color.White,
-    onSecondary = Color.Black,
-    onBackground = Color.Black,
-    onSurface = Color.Black,
-    */
+    primary = TemaClaro.primary,
+    secondary = TemaClaro.secundary,
+    surface = TemaClaro.surface,
+    background = TemaClaro.background,
+    onPrimary = TemaClaro.onPrimary,
+    onSurface = TemaClaro.onSurface
 )
 
 @Composable
 fun WoofTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
-    val colors = if (darkTheme) {
-        DarkColorPalette
-    } else {
-        LightColorPalette
-    }
+
+    val colors = if (darkTheme) DarkColorPalette else LightColorPalette
 
     MaterialTheme(
         colors = colors,
@@ -41,4 +35,5 @@ fun WoofTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable (
         shapes = Shapes,
         content = content
     )
+
 }

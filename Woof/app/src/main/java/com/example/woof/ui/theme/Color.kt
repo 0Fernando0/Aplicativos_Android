@@ -2,7 +2,21 @@ package com.example.woof.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple200 = Color(0xFFBB86FC)
-val Purple500 = Color(0xFF6200EE)
-val Purple700 = Color(0xFF3700B3)
-val Teal200 = Color(0xFF03DAC5)
+object TemaClaro{
+        val primary = Color(0xfff8f9fa)
+        val surface = Color(0xffe6f4ea)
+        val background = Color(0xffceead6)
+        val secundary = Color(0xff5f6368)
+        val onSurface = Color(0xff202124)
+        val onPrimary = Color(0xff202124)
+}
+object TemaEscuro{
+    val primary = Color(0xffffffff)
+    val onSurface = Color(0xfff1f3f4)
+    val onPrimary = Color(0xfff1f3f4)
+    val surface = Color(0xff129eaf)
+    val background = Color(0xff007b83)
+    val secondary = Color(0xff202124)
+}
+
+
